@@ -1,0 +1,143 @@
+# https://www.toptal.com/developers/gitignore/api/windows,intellij에 의해 생성됨
+# https://www.toptal.com/developers/gitignore?templates=windows,intellij에서 편집하세요.
+
+### 인텔리즈 ###
+# JetBrains IDE 포함: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm 및 Rider
+# 참조: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# 사용자별 항목
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/사전
+.idea/**/shelf
+
+# AWS 사용자별
+.idea/**/aws.xml
+
+# 생성된 파일
+.idea/**/contentModel.xml
+
+# 민감하거나 변동률이 높은 파일
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# 그래들
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# 자동 가져오기 기능이 있는 Gradle 및 Maven
+# 자동 가져오기 기능이 있는 Gradle 또는 Maven을 사용하는 경우 모듈 파일을 제외해야 합니다.
+# 다시 생성되므로 이탈이 발생할 수 있습니다. 사용하는 경우 주석을 해제하세요.
+# 자동 가져오기.
+# .아이디어/아티팩트
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .아이디어/모듈
+# *.iml
+# *.ipr
+
+# CMake
+cmake-빌드-*/
+
+# 몽고 익스플로러 플러그인
+.idea/**/mongoSettings.xml
+
+# 파일 기반 프로젝트 형식
+*.iws
+
+# 인텔리J
+밖으로/
+
+# mpeltonen/sbt-idea 플러그인
+.idea_modules/
+
+# JIRA 플러그인
+atlassian-ide-plugin.xml
+
+# 필기체 Clojure 플러그인
+.idea/replstate.xml
+
+# SonarLint 플러그인
+.idea/sonarlint/
+
+# Crashlytics 플러그인(Android Studio 및 IntelliJ용)
+com_crashlytics_export_strings.xml
+crashlytics.속성
+crashlytics-build.properties
+패브릭.속성
+
+# 에디터 기반 Rest 클라이언트
+.idea/http요청
+
+# Android 스튜디오 3.1+ 직렬화된 캐시 파일
+.idea/caches/build_file_checksums.ser
+
+### Intellij 패치 ###
+# 댓글 이유: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# 모듈.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint 플러그인
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
+
+# SonarQube 플러그인
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
+
+# 마크다운 네비게이터 플러그인
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# 캐시 파일 생성 버그
+# https://youtrack.jetbrains.com/issue/JBR-2257을 참조하세요.
+.idea/$CACHE_FILE$
+
+# CodeStream 플러그인
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# IntelliJ 플러그인용 Azure 도구 키트
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
+
+### 윈도우즈 ###
+# Windows 썸네일 캐시 파일
+Thumbs.db
+Thumbs.db:암호화 가능
+ethhumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+*.스택덤프
+
+# 폴더 구성 파일
+[Dd]esktop.ini
+
+# 파일 공유에 사용되는 휴지통
+$재활용.BIN/
+
+# Windows 설치 프로그램 파일
+*.택시
+*.msi
+*.msix
+*.msm
+*.msp
+
+# 윈도우 단축키
+*.lnk
+
+# https://www.toptal.com/developers/gitignore/api/windows,intellij 끝
